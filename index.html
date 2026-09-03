@@ -2,197 +2,424 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1">
-
-    <title>William Butler | Engineering Portfolio</title>
+    <title>William Butler | Mechanical Engineering Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-<header>
+<!-- ================= NAVIGATION ================= -->
 
-    <h1>William Butler</h1>
+<header class="navbar">
 
-    <p>Mechanical Engineering Student</p>
+    <div class="nav-container">
 
-    <nav>
+        <a href="#" class="logo">WB<span>.</span></a>
 
-        <a href="#about">About</a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-        <a href="#education">Education</a>
-
-        <a href="#projects">Projects</a>
-
-        <a href="#resume">Resume</a>
-
-        <a href="#contact">Contact</a>
-
-    </nav>
+    </div>
 
 </header>
 
 
-<section id="hero">
+<!-- ================= HERO ================= -->
 
-    <img src="images/bill.jfif" alt="Profile Picture">
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="eyebrow">MECHANICAL ENGINEERING PORTFOLIO</p>
+
+        <h1>
+            William<br>
+            <span>Butler.</span>
+        </h1>
+
+        <p class="hero-description">
+            Junior Mechanical Engineering student focused on CAD design,
+            mechanical systems, prototyping, and engineering development.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="button primary">
+                View Projects
+            </a>
+
+            <a href="#resume" class="button secondary">
+                View Resume
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img
+            src="images/bill.jfif"
+            alt="Fusion 360 model of the Machined Fusor assembly">
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">01 — ABOUT</p>
+
+        <h2>About<br><span>me.</span></h2>
+
+    </div>
+
+    <div class="about-content">
+
+        <p class="large-text">
+
+            I am a Mechanical Engineering student at Michigan State University with a focus on research and design applications.
+
+        </p>
+
+        <p>
+
+            I am interested in CAD design, 3D printing,
+            mechanical systems, and technology. I enjoy applying engineering
+            concepts to an initial idea and working through CAD development and research to acheive physical implementation.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section id="education" class="section dark-section">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">02 — EDUCATION</p>
+
+        <h2>My<br><span>academic experience.</span></h2>
+
+    </div>
+
+    <div class="education-card">
+
+        <div>
+
+            <p class="card-label">MICHIGAN STATE UNIVERSITY</p>
+
+            <h3>Bachelor of Science</h3>
+
+            <p>Mechanical Engineering</p>
+
+        </div>
+
+        <div class="education-details">
+
+            <p><strong>Expected Graduation:</strong></p>
+            <p>May 2028</p>
+
+            <br>
+
+            <p><strong>Recognition:</strong></p>
+            <p>Dean's List — Fall 2025</p>
+            <p>Dean's List — Spring 2026</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="section">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">03 — SKILLS</p>
+
+        <h2>Skills &<br><span>capabilities.</span></h2>
+
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <span>01</span>
+            <h3>CAD Design</h3>
+            <p>3D modeling, assemblies, and mechanical design.</p>
+        </div>
+
+        <div class="skill-card">
+            <span>02</span>
+            <h3>Fusion 360</h3>
+            <p>Parametric modeling, assemblies, drawings, and design development.</p>
+        </div>
+
+        <div class="skill-card">
+            <span>03</span>
+            <h3>Engineering Drawings</h3>
+            <p>Detailed technical drawings and in depth project documentation.</p>
+        </div>
+
+        <div class="skill-card">
+            <span>04</span>
+            <h3>3D Printing</h3>
+            <p>Designing components for prototyping and physical fabrication.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section project-section">
+
+    <div class="section-heading">
+
+        <p class="eyebrow">04 — FEATURED PROJECT</p>
+
+        <h2>Fusor<br><span>Device.</span></h2>
+
+    </div>
+
+
+    <!-- MAIN PROJECT IMAGE -->
+
+    <div class="featured-project">
+
+        <div class="project-image">
+
+            <img
+                src="images/fusor-assembly.png"
+                alt="Machined Fusor Full assembly modeled in Fusion 360">
+
+        </div>
+
+        <div class="project-info">
+
+            <p class="card-label">MECHANICAL DESIGN / CAD</p>
+
+            <h3>Fusion Reactor Vacuum Chamber</h3>
+
+            <p>
+
+                Designed and prototyped the central vacuum chamber for a
+                fusor device. The project includes a machined hemispherical
+                chamber, flanges, and vacuum fittings shown here in a complete assembly
+                developed in Fusion 360.
+
+            </p>
+
+            <p>
+
+                The design process included CAD modeling, collaborative design iterations, engineering drawings, and design modifications for component integration.
+
+            </p>
+
+            <div class="project-tags">
+
+                <span>Fusion 360</span>
+                <span>CAD</span>
+                <span>Mechanical Design</span>
+                <span>Engineering Drawings</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROJECT IMAGE GALLERY -->
+
+    <div class="gallery">
+
+        <div class="gallery-item">
+
+            <img
+                src="images/fusor-section.png"
+                alt="Section view of Machined Fusor assembly">
+
+            <div class="gallery-caption">
+                <strong>Section View</strong>
+                <span>Front sectional view of fusor chamber showing contact points between both steel hemispheres and attached nipples. Designed to be connected with interior welds to create airtight seals and allow for instrument implementation.</span>
+            </div>
+
+        </div>
+
+
+        <div class="gallery-item">
+
+            <img
+                src="images/fusor-top.png"
+                alt="Top view of Machined Fusor assembly">
+
+            <div class="gallery-caption">
+                <strong>Detail View</strong>
+                <span>Sectional view of assembled chamber model highlighting the altered flanges fitted around the rim of each hemisphere allowing for a flush airtight connection between the flange and hemisphere, as well as both halves of the full chamber.</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ENGINEERING DRAWINGS -->
+
+    <div class="drawings">
+
+        <div class="drawing-text">
+
+            <p class="card-label">ENGINEERING DOCUMENTATION</p>
+
+            <h3>Design Drawings</h3>
+
+            <p>
+
+                Detailed engineering drawings were developed for individual
+                components of the fusor assembly.
+
+            </p>
+
+        </div>
+
+        <div class="drawing-links">
+
+            <a href="documents/Fusor Hemisphere Drawing.pdf"
+               target="_blank">
+                Fusor Hemisphere →
+            </a>
+
+            <a href="documents/Machined KJL fixed flange Drawing.pdf"
+               target="_blank">
+                Machined KJL Fixed Flange →
+            </a>
+
+            <a href="documents/Rotatable Nipple Drawing.pdf"
+               target="_blank">
+                Rotatable Nipple →
+            </a>
+
+            <a href="documents/Machined Fusor Full.pdf"
+               target="_blank">
+                Full Assembly Drawing →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= RESUME ================= -->
+
+<section id="resume" class="resume-section">
 
     <div>
 
-        <h2>Hello!</h2>
+        <p class="eyebrow">05 — RESUME</p>
+
+        <h2>Let's work together.<br><span></span></h2>
 
         <p>
-
-            My name is William Butler, welcome to my engineering portfolio.
-
-            In this web based format you can view my education experience,
-
-            past and current projects, resume, and contact information.
-
+            View my current resume for additional information
+            about my education, experience, and skills.
         </p>
+
+        <a
+            href="documents/William Butler Resume.pdf"
+            target="_blank"
+            class="button primary">
+
+            View Resume →
+
+        </a>
 
     </div>
 
 </section>
 
 
-<section id="about">
+<!-- ================= CONTACT ================= -->
 
-    <h2>About Me</h2>
+<section id="contact" class="section contact-section">
 
-    <p>
+    <div class="section-heading">
 
-        Junior Mechanical Engineering student admitted to Michigan State University's college of engineering. Focused on research and design applications of academic and personal skills.
-        Interest in CAD design, 3d printing, and technology.
+        <p class="eyebrow">06 — CONTACT</p>
 
-    </p>
+        <h2>Contact me:<br><span></span></h2>
 
-</section>
+    </div>
 
+    <div class="contact-links">
 
-<section id="education">
+        <a href="mailto:williamjsbutler@gmail.com">
+            <span>Email</span>
+            williamjsbutler@gmail.com →
+        </a>
 
-    <h2>Education</h2>
+        <a
+            href="https://www.linkedin.com/in/william-butler-b52b1b39a/"
+            target="_blank">
 
-    <div class="card">
+            <span>LinkedIn</span>
+            View LinkedIn →
 
-        <h3>Michigan State University</h3>
+        </a>
 
-        <p>
+        <a
+            href="https://github.com/williamjsbutler"
+            target="_blank">
 
-            Bachelor of Science
+            <span>GitHub</span>
+            williamjsbutler →
 
-            Mechanical Engineering
-
-        </p>
-
-        <p>
-
-            Expected Graduation: May 2028
-
-        </p>
-        Dean's List Recipient | Fall semester 2025 and Spring semester 2026
-        <p>
-            College of Engineering Admission | Fall semester 2025
-        </p>
+        </a>
 
     </div>
 
 </section>
 
 
-<section id="projects">
-
-<h2>Engineering Projects</h2>
-
-<div class="project-grid">
-
-<div class="project">
-
-<img src="images/irl1.jpeg">
-
-<h3>Vacuum Chamber Design</h3>
-
-<p>
-
-Designed and prototyped a vacuum chamber capable of instrument integration and maintaining high-level vacuum, to be installed as the core of a functional fusion reactor.
-
-
-<section id="CAD Work">
-
-<h2>CAD models/drawings</h2>
-
-<p>
-
-View some of my recent CAD work, models and drawings utilizing Fusion 360, here.
-
-</p>
-
-<a class="button"
-
-href="documents/CADWORK.pdf"
-
-target="_blank">
-
-View CAD work
-
-</a>
-
-</section>
-
-<section id="resume">
-
-<h2>Resume</h2>
-
-<p>
-
-Download my current resume below.
-
-</p>
-
-<a class="button"
-
-href="documents/William Butler Resume.pdf"
-
-target="_blank">
-
-View Resume
-
-</a>
-
-</section>
-
-
-<section id="contact">
-
-<h2>Contact</h2>
-
-<p>Email: williamjsbutler@gmail.com</p>
-
-<p>LinkedIn: https://www.linkedin.com/in/william-butler-b52b1b39a/</p>
-
-<p>GitHub: github.com/williamjsbutler</p>
-
-    <p>Phone Number: 616-836-4910</p>
-
-</section>
-
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
-<p>
+    <div>
+        <strong>WILLIAM BUTLER</strong>
+        <p>Mechanical Engineering Portfolio</p>
+    </div>
 
-© 2026 William Butler
-
-</p>
+    <p>© 2026 William Butler</p>
 
 </footer>
+
 
 <script src="script.js"></script>
 
