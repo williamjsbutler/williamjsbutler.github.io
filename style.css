@@ -861,3 +861,131 @@ footer p {
         align-self: center;
     }
 }
+
+/* =================================
+   FUSOR DEVICE IMAGE GALLERY
+================================= */
+
+.fusor-gallery-section {
+    margin-top: 75px;
+}
+
+.fusor-gallery-heading {
+    max-width: 650px;
+    margin-bottom: 30px;
+}
+
+.fusor-gallery-heading h3 {
+    margin: 10px 0;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.fusor-gallery-heading > p:last-child {
+    color: #aebbc8;
+    line-height: 1.8;
+}
+
+.fusor-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.fusor-gallery-card {
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 12px;
+    background: #17212d;
+    transition: transform 0.25s ease,
+                border-color 0.25s ease;
+}
+
+.fusor-gallery-card:hover {
+    transform: translateY(-5px);
+    border-color: #55d6c2;
+}
+
+.fusor-gallery-card a {
+    display: block;
+    overflow: hidden;
+    background: #e9edf1;
+}
+
+.fusor-gallery-card img {
+    display: block;
+    width: 100%;
+    height: 340px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.fusor-gallery-card:hover img {
+    transform: scale(1.025);
+}
+
+.fusor-gallery-caption {
+    padding: 22px;
+}
+
+.fusor-gallery-caption span {
+    color: #55d6c2;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.fusor-gallery-caption h4 {
+    margin: 9px 0;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.fusor-gallery-caption p {
+    margin: 0;
+    color: #aebbc8;
+    font-size: 0.92rem;
+    line-height: 1.7;
+}
+
+/* Featured full assembly image */
+.fusor-gallery-featured {
+    grid-column: 1 / -1;
+}
+
+.fusor-gallery-featured img {
+    height: 480px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 700px) {
+    .fusor-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .fusor-gallery-featured {
+        grid-column: auto;
+    }
+
+    .fusor-gallery-card img,
+    .fusor-gallery-featured img {
+        height: 280px;
+    }
+
+    .fusor-gallery-heading h3 {
+        font-size: 1.65rem;
+    }
+}
+/* Fix Fusor gallery heading visibility */
+
+.fusor-gallery-heading h3 {
+    color: #17212d;
+}
+
+.fusor-gallery-heading > p:last-child {
+    color: #526273;
+}
+
+.fusor-gallery-caption h4 {
+    color: #ffffff;
+}
